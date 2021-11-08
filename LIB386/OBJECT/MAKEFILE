@@ -2,7 +2,7 @@
 !ifdef %NT
 WL = $(%WATCOM)\binnt\wlib
 !else
-WL = $(%WATCOM)\binw\wlib
+WL = $(%WATCOM)\binnt64\wlib
 !endif
 
 !ifdef %MASM

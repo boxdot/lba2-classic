@@ -4,9 +4,9 @@ CPP= $(%WATCOM)\binnt\wpp386
 CC = $(%WATCOM)\binnt\wcc386
 WL = $(%WATCOM)\binnt\wlib
 !else
-CPP= $(%WATCOM)\binw\wpp386
-CC = $(%WATCOM)\binw\wcc386
-WL = $(%WATCOM)\binw\wlib
+CPP= $(%WATCOM)\binnt64\wpp386
+CC = $(%WATCOM)\binnt64\wcc386
+WL = $(%WATCOM)\binnt64\wlib
 !endif
 
 !ifdef %MASM

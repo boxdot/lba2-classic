@@ -7,6 +7,8 @@
 extern "C" {
 #endif
 
+typedef void *HSAMPLE; // TODO
+
 //--------------------------------------------------------------------------
 extern	char		SampleDriverName[]	;
 

@@ -24,10 +24,10 @@ CC = $(WATCOM)\binnt\wcc386
 WL = $(WATCOM)\binnt\wlib
 LL = $(WATCOM)\binnt\wlink
 !else
-CP = $(WATCOM)\binw\wpp386
-CC = $(WATCOM)\binw\wcc386
-WL = $(WATCOM)\binw\wlib
-LL = $(WATCOM)\binw\wlink
+CP = $(WATCOM)\binnt64\wpp386
+CC = $(WATCOM)\binnt64\wcc386
+WL = $(WATCOM)\binnt64\wlib
+LL = $(WATCOM)\binnt64\wlink
 !endif
 
 AFLAGS  = /Cx /Zm /Zi /c /W0 /Sa /nologo
